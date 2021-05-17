@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+.mode
+{ 
+    width:100vw;
+    height:100vh;
+  background-image: url('images/2001.jpg');
+  background-size:cover;
+  background-position:center; 
+  object-fit:cover;
+  display:flex;
+  
+}
+.mode1{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    background-color: rgba(236, 44, 44, 0.87);
+    padding:10px 30px;
+    border-radius:3px;
+    box-shadow:2px 3px 5px 5px rgb(8, 252, 199);
+  
+}
+.mode2{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    background-color: rgba(236, 44, 44, 0.87);
+    padding:10px 30px;
+    border-radius:3px;
+    box-shadow:2px 3px 5px 5px rgb(8, 252, 199);
+    
+  
+}
+.link1{
+    font-size:20px;
+    color:white;
+    font-family: 'Lobster';font-size: 42px;
+}
+.link2{
+    font-size:20px;
+    color:white;
+    font-family: 'Lobster';font-size: 42px;
+}
+.mode1:hover{
+    background:rgba(28, 31, 202, 0.767);
+}
+.mode2:hover{
+    background:rgba(28, 31, 202, 0.767);
+}
+@media (max-width:966px)
+{
+    .link2{
+        font-size:20px;
+        color:white;
+        font-family: 'Lobster';font-size: 32px;
+    }
+    .link1{
+        font-size:20px;
+        color:white;
+        font-family: 'Lobster';font-size: 32px;
+    }
+    .mode1{
+        padding:10px 15px;
+    }
+   .mode2{
+       padding:10px 15px;
+   }
+}
+@media (max-width:720px)
+{
+    .link2{
+     
+        color:white;
+        font-family: 'Lobster';font-size: 27px;
+    }
+    .link1{
+
+        color:white;
+        font-family: 'Lobster';font-size: 27px;
+    }
+    .mode1{
+        padding:10px 10px;
+        width:60%;
+
+    }
+   .mode2{
+       padding:10px 10px;
+       width:60%;
+   }
+}
+
+.favicon{
+    border-radius: 50%;
+  
+}
